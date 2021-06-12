@@ -1,7 +1,7 @@
 /*
 Theme Name: Instorm
 Theme URI: http://alx.media/themes/instorm/
-Version: 1.0.2
+Version: 1.0.3
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.6
@@ -713,6 +713,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .toggle-search #svg-close { display: none; }
 .toggle-search.active #svg-search { display: none; }
 .toggle-search.active #svg-close { display: block; fill: rgba(0,0,0,0.5); }
+.toggle-search:focus #svg-search { fill: rgba(0,0,0,0.5); }
 .toggle-search:focus #svg-close { fill: #333; }
 
 
@@ -810,6 +811,9 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .nav-menu.mobile.toggled > div > ul.menu ul.sub-menu { visibility: hidden; transition: all 0.3s ease; }
 .nav-menu.mobile.toggled > div > ul.menu,
 .nav-menu.mobile.toggled > div > ul.menu ul.sub-menu.active { visibility: visible; }
+.nav-menu.mobile button:focus,
+.menu-toggle:focus { background: rgba(0,0,0,0.04); }
+.menu-toggle:focus { border-radius: 30px; }
 
 /* menu styling */
 .nav-menu a { color: #fff; }

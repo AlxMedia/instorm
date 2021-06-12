@@ -85,6 +85,10 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.3 - 2021-06-12 =
+* Fixed mobile menu focus states
+* Fixed mobile search focus states
+
 = 1.0.2 - 2021-06-12 =
 * Removed premium theme files
 * Added screenshot images to readme
