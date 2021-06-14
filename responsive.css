@@ -83,7 +83,7 @@
 	.site-title a { text-align: center; }
 	
 	.search-trap-focus { position: relative; }
-	.toggle-search { display: block; background: none; border: 0; width: auto; position: absolute; left: 20px; bottom: 4px; z-index: 103; color: #333; margin: 0; padding: 10px 12px; }
+	.toggle-search { display: block; background: none; border: 0; width: auto; position: absolute; left: 20px; top: 4px; z-index: 103; color: #333; margin: 0; padding: 10px 12px; }
 	.toggle-search:focus { outline: none; }
 	.toggle-search:hover,
 	.toggle-search.active { background: transparent; color: #333; padding-top: 10px; padding-bottom: 10px; }

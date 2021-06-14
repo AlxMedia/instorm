@@ -29,18 +29,6 @@
 					<p class="site-description"><?php bloginfo( 'description' ); ?></p>
 				<?php endif; ?>
 				
-				<?php if ( has_nav_menu('header') ): ?>
-					<div id="wrap-nav-header" class="wrap-nav">
-						<?php \Instorm\Nav::nav_menu(array('theme_location'=>'header','menu_id' => 'nav-header','fallback_cb'=> false)); ?>
-					</div>
-				<?php endif; ?>
-				
-				<?php if ( has_nav_menu('mobile') ): ?>
-					<div id="wrap-nav-mobile" class="wrap-nav">
-						<?php \Instorm\Nav::nav_menu(array('theme_location'=>'mobile','menu_id' => 'nav-mobile','fallback_cb'=> false)); ?>
-					</div>
-				<?php endif; ?>
-				
 				<?php if ( get_theme_mod( 'header-search', 'on' ) == 'on' ): ?>
 					<div class="search-trap-focus">
 						<button class="toggle-search" data-target=".search-trap-focus">
@@ -52,6 +40,18 @@
 								<?php get_search_form(); ?>
 							</div>
 						</div>
+					</div>
+				<?php endif; ?>
+				
+				<?php if ( has_nav_menu('header') ): ?>
+					<div id="wrap-nav-header" class="wrap-nav">
+						<?php \Instorm\Nav::nav_menu(array('theme_location'=>'header','menu_id' => 'nav-header','fallback_cb'=> false)); ?>
+					</div>
+				<?php endif; ?>
+				
+				<?php if ( has_nav_menu('mobile') ): ?>
+					<div id="wrap-nav-mobile" class="wrap-nav">
+						<?php \Instorm\Nav::nav_menu(array('theme_location'=>'mobile','menu_id' => 'nav-mobile','fallback_cb'=> false)); ?>
 					</div>
 				<?php endif; ?>
 				

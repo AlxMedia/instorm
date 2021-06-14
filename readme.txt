@@ -8,7 +8,7 @@ Tags: portfolio, photography, blog, one-column, two-columns, right-sidebar, left
 
 == Description ==
 
-Instorm is a flexible magazine and blog theme with plenty of options. It is optimized for all devices and built to work with blocks. You can choose between gradient colors, widget sidebar to the left or right - or no sidebar at all. Demo: http://demo.alx.media/x/?theme=Instorm
+Instorm is a flexible magazine and blog theme with plenty of options. It is optimized for all devices and built to work with blocks. You can choose between gradient colors, widget sidebar to the left or right or no sidebar at all. Demo: http://demo.alx.media/x/?theme=Instorm
 
 == Installation ==
 
@@ -84,6 +84,14 @@ Sidebar images
 6. https://stocksnap.io/photo/CLCT9SWF9E - CC0 1.0 Universal (CC0 1.0)
 
 == Changelog ==
+
+= 1.0.4 - 2021-06-14 =
+* Added non-minified version of jq-stick-anything
+* Fixed missing lang string in footer
+* Fixed theme description
+* Fixed mobile header focus order
+* Fixed header search field focus state
+* Updated language files
 
 = 1.0.3 - 2021-06-12 =
 * Fixed mobile menu focus states
