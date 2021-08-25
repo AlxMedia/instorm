@@ -62,9 +62,11 @@
 	
 	<div class="wrap-content">
 		<div class="wrap-content-top group">
-			<div class="wrap-content-top-search">
-				<?php get_search_form(); ?>
-			</div>
+			<?php if ( get_theme_mod( 'header-search', 'on' ) == 'on' ): ?>
+				<div class="wrap-content-top-search">
+					<?php get_search_form(); ?>
+				</div>
+			<?php endif; ?>
 			<?php if ( get_theme_mod( 'header-social', 'on' ) == 'on' ): ?>
 				<?php instorm_social_links() ; ?>
 			<?php endif; ?>
