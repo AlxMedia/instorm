@@ -85,6 +85,9 @@ Sidebar images
 
 == Changelog ==
 
+= 1.1.1 - 2021-09-03 =
+* Fixed horizontal scrollbar appearing on some screen resolutions
+
 = 1.1.0 - 2021-08-25 =
 * Added missing theme tags for wordpress.org
 
