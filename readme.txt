@@ -8,7 +8,7 @@ Tags: blog, news, entertainment, one-column, two-columns, right-sidebar, left-si
 
 == Description ==
 
-Instorm is a flexible magazine and blog theme with plenty of options. It is optimized for all devices and built to work with blocks. You can choose between gradient colors, widget sidebar to the left or right - or no sidebar at all. Demo: http://demo.alx.media/x/?theme=Instorm
+Instorm is a flexible magazine and blog theme with plenty of options. It is optimized for all devices and built to work with blocks. You can choose between gradient colors, widget sidebar to the left or right - or no sidebar at all. Demo: https://demo.agnarson.com/?theme=Instorm
 
 == Installation ==
 
@@ -19,7 +19,7 @@ Instorm is a flexible magazine and blog theme with plenty of options. It is opti
 
 == Documentation ==
 
-http://alx.media/documentation/
+https://agnarson.com/documentation/
 
 == Copyright ==
 
